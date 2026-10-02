@@ -1,0 +1,19 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Data Files (Too large for Git)
+helper_pdfs/
+tables/
+pdfs.html
+*.sqlite
+*.db
+*.sql
+
+# Python
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store

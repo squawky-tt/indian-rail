@@ -1,0 +1,21 @@
+{
+	"name": "indian-rail-api",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-07-29",
+	"observability": {
+		"enabled": true
+	},
+	"routes": [
+		{
+			"pattern": "train.siv19.dev",
+			"custom_domain": true
+		}
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "indian-rail-db",
+			"database_id": "e506ef0b-5bf9-4a51-952a-514b6cbd416b"
+		}
+	]
+}
